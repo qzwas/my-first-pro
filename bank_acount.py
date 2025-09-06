@@ -75,7 +75,7 @@ class managing:
             try:
                 deposit = int(input("how much do you want to deposit: "))
                 break
-            except ValueError:
+            except ValueError: #coocoo
                 print("pls provide only numbers")
         balance += deposit 
         return balance
